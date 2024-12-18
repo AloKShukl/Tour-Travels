@@ -20,7 +20,7 @@ public class Datadao
 			Class.forName("com.mysql.cj.jdbc.Driver");
 			System.out.println("Driver Found....");
 			
-			con=DriverManager.getConnection("jdbc:mysql://localhost:3306/Tour","root","Abhayray@1234");
+			con=DriverManager.getConnection("jdbc:mysql://localhost:3306/Tour","root","12345678");
 			System.out.println("Connection Created");
 		} catch (ClassNotFoundException | SQLException e) {
 			// TODO Auto-generated catch block
